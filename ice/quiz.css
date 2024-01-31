@@ -1,0 +1,23 @@
+.name{font-size: 2em;}
+.main_text{margin: 20px;}
+
+.moon{
+    margin: 50px;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 5%;
+
+}
+#moon_img{
+    text-align: right;
+    width: 350px;
+    margin: 15px;
+}
+#img_container{
+    text-align: right;
+}
+#hello_world{
+    font-size: 3em;
+    background-color: blue;
+    text-align: center;
+}
