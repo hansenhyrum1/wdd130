@@ -25,6 +25,11 @@ nav a{
     padding: 35px;
 }   
 
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
 #hero-msg h1{
     text-align: center;
     font-family: var(--heading-font);
@@ -60,6 +65,8 @@ body{
 
 header{
     background-color: #54C6EB;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 nav a:hover{
@@ -164,6 +171,8 @@ h2{
 
 #logo-link{
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .rivers-card{
