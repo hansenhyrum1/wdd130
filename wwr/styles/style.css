@@ -182,7 +182,6 @@ footer{
     color: white;
     background-color: #54C6EB;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -208,7 +207,7 @@ footer p a:hover{
     text-decoration: underline;
 }
 
-h2{
+.home-grid h2{
     margin: 0;
 }
 
@@ -245,6 +244,80 @@ h2{
 .card-img:hover{
     opacity: 0.6;
     transform: scale(1.1);
+}
+
+/* Everything below this point is specific to page 2 */
+
+.rivers{
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+
+.rivers_title h2{
+    color: white;
+    z-index: 2;
+    margin-bottom: 10px;
+}
+.rivers_title img{
+    /* margin-top: -10px; */
+    z-index: 1;
+    width: 100%;
+    grid-row: 1/2;
+}
+.rivers_title{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.salmon{
+    margin: 20px;
+    grid-column: 1/2;
+    font-size: 1.1em;
+}
+
+.salmon_image{
+    grid-column: 2/4;
+    margin: 50px 50px 50px 20px;
+}
+
+.salmon_image img{
+    width: 100%;
+}
+
+.gray{
+    margin: 30px;
+    grid-column: 3/4;
+    font-size: 1.1em;
+}
+
+.gray_image{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin: 50px 20px 50px 50px;
+}
+
+.gray_image img{
+    width: 100%;
+}
+
+
+.grand{
+    margin: 30px;
+    grid-column: 1/2;
+    font-size: 1.1em;
+}
+
+.grand_image{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    margin: 50px 50px 20px 50px;
+}
+
+.grand_image img{
+    width: 100%;
 }
 
 @media screen and (max-width: 900px) {
