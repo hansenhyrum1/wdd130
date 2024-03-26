@@ -1,106 +1,53 @@
- /* Bulkyard site cs
+/* Bulkyard Index CSS */
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;900&family=Kdam+Thmor+Pro&family=Rubik+Dirt&display=swap');
 
-:root{
-    --heading-font: "Rubik Dirt";
-    --paragraph-font: "Kdam Thmor Pro", "Fira Sans", sans-serif;
-
+:root {
     --primary-color: #00F703;
     --secondary-color: #034732;
     --accent1-color: #F4FFF8;
     --accent2-color: #000000;
+  
+    --heading-font: "Rubik Dirt";
+    --paragraph-font: "Kdam Thmor Pro", "Fira Sans", sans-serif;
 }
 
 header{
-    background-color: var(--primary-color);
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    text-align: center;
+    background: var(--primary-color);
 }
 
-header img{
-    grid-row: 1;
-    grid-column: 2/3;
-    width: 20%;
+.logo{
+    margin: auto;
+    width: 50%;
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+}
 
 nav a{
-    text-align: center;
+    padding: 35px;
+    background-color: var(--primary-color);
+    font-size: 200%;
+    font-family: var(--paragraph-font);
     text-decoration: none;
-    padding: 50px;
-    /* grid-row: 2/3; */
-    /* grid-column: 1/3; */
-/* }    */
-/* 
-nav{
-    justify-content: space-around;
-    grid-column: 1/3;
-    grid-row: 2/3;
-    padding: auto;
 }
 
 nav a:hover{
-    color: white;
-    background-color: #0F1A20;
-}
-
-#logo-link{
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-} */ */
-
-/* #content img{
-    width: 30em;
-}
-
-.home-grid{
-    display: grid;
-    grid-template-columns: auto;
-}
-
-.home-grid h2{
-    font-family: var(--heading-font);
-}
-
-.home-title{
-    font-size: 2em;
-    margin-top: 10px;
-    color: black;
+    background-color: var(--accent1-color);
 }
 
 #content{
-    max-width: 1600px;
-    margin: 0 auto;
+    /* display: grid; */
+}
+
+.top img{
+    width: 100%;
 }
 
 .top{
     text-align: center;
-}
-
-.top img{
-    width: 80%;
-    margin: 100px;
-} */
-
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;900&family=Kdam+Thmor+Pro&family=Rubik+Dirt&display=swap');
-
-:root{
-    --heading-font: "Rubik Dirt";
-    --paragraph-font: "Kdam Thmor Pro", "Fira Sans", sans-serif;
-
-    --primary-color: #00F703;
-    --secondary-color: #034732;
-    --accent1-color: #F4FFF8;
-    --accent2-color: #000000;
-}
-
-header {
-}
-
-.logo_link{
-    justify-content: center;
-    width: 20%;
+    font-family: var(--paragraph-font);
 }
