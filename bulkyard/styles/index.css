@@ -40,14 +40,90 @@ nav a:hover{
 }
 
 #content{
-    /* display: grid; */
-}
-
-.top img{
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* grid-template-columns: auto auto auto; */
+    grid-template-rows: 200px 200px 200px 200px 200px 200px;
 }
 
 .top{
     text-align: center;
     font-family: var(--paragraph-font);
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+
+.top img{
+    width: 100%;
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+
+.top p{
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+
+.soils{
+    text-align: center;
+    width: 100%;
+}
+
+.soils h2{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.soils p{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.soils img{
+    width: 100%;
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.rock{
+    text-align: center;
+    width: 100%;
+}
+
+.rock h2{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.rock p{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.rock img{
+    width: 100%;
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+.bark{
+    text-align: center;
+    width: 100%;
+}
+
+.bark h2{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.bark p{
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+.bark img{
+    width: 100%;
+    grid-row: 4/5;
+    grid-column: 3/4;
 }
