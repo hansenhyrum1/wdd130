@@ -127,3 +127,67 @@ nav a:hover{
     grid-row: 4/5;
     grid-column: 3/4;
 }
+
+footer{
+    color: white;
+    background-color: #54C6EB;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #0F1A20;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: var(--primary-color);
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+  
+  .main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
