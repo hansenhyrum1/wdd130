@@ -152,6 +152,87 @@ nav a:hover{
     grid-column: 3/4;
 }
 
+.bark2{
+    text-align: center;
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+
+.bark2 h2{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.bark2 p{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    font-size: 24px;
+    font-family: var(--paragraph-font);
+}
+
+.bark2 img{
+    width: 100%;
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.groundcover{
+    text-align: center;
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+
+.groundcover h2{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.groundcover p{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    font-size: 24px;
+    font-family: var(--paragraph-font);
+}
+
+.groundcover img{
+    width: 100%;
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+.rock2{
+    text-align: center;
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+
+.rock2 h2{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.rock2 p{
+    grid-row: 3/4;
+    grid-column: 3/4;
+    font-size: 24px;
+    font-family: var(--paragraph-font);
+}
+
+.rock2 img{
+    width: 100%;
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bottom img{
+    width: 100%;
+}
+
 footer{
     color: white;
     background-color: var(--primary-color);
